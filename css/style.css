@@ -1,0 +1,24 @@
+[class*="col-"]{
+    border:1px solid white;
+    background: blue;
+    color: white;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+    
+    
+}
+
+[class*="col-"] [class*="col"]{
+    background: greenyellow;
+    line-height: 40px;
+    padding: 0;
+    border:1px solid blue; 
+}
+
+
+
+
+.container{
+    margin-bottom: 20px;
+}
